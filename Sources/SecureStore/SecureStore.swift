@@ -28,7 +28,7 @@ public struct SecureStore {
     public let accessGroup: String?
     public let accessibility: Accessibility
     
-    init(accessGroup: String? = nil, accessibility: Accessibility = .always) {
+    public init(accessGroup: String? = nil, accessibility: Accessibility = .always) {
         self.accessGroup = accessGroup
         self.accessibility = accessibility
     }
