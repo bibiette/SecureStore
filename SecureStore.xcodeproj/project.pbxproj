@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		"SecureStore::SecureStorePackageTests::ProductTarget" /* SecureStorePackageTests */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = OBJ_32 /* Build configuration list for PBXAggregateTarget "SecureStorePackageTests" */;
+			buildPhases = (
+			);
+			dependencies = (
+				OBJ_35 /* PBXTargetDependency */,
+			);
+			name = SecureStorePackageTests;
+			productName = SecureStorePackageTests;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		8233644E24153AE2006B3BDC /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8233644724153AE2006B3BDC /* Keychain.swift */; };
+		8233644F24153AE2006B3BDC /* Data+Bits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8233644824153AE2006B3BDC /* Data+Bits.swift */; };
+		8233645324153B65006B3BDC /* Accessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8233645224153B65006B3BDC /* Accessibility.swift */; };
+		8233645524153C77006B3BDC /* KeyType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8233645424153C77006B3BDC /* KeyType.swift */; };
+		8233645724153C9A006B3BDC /* SecureStoreError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8233645624153C9A006B3BDC /* SecureStoreError.swift */; };
+		8233645924153D49006B3BDC /* Keychain+RSA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8233645824153D49006B3BDC /* Keychain+RSA.swift */; };
+		8233645E2415425D006B3BDC /* Keychain+Password.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8233645D2415425D006B3BDC /* Keychain+Password.swift */; };
+		82336460241542BD006B3BDC /* Keychain+Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8233645F241542BD006B3BDC /* Keychain+Data.swift */; };
+		OBJ_23 /* SecureStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* SecureStore.swift */; };
+		OBJ_30 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_42 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* XCTestManifests.swift */; };
+		OBJ_44 /* SecureStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SecureStore::SecureStore::Product" /* SecureStore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8233644124153AAD006B3BDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "SecureStore::SecureStore";
+			remoteInfo = SecureStore;
+		};
+		8233644224153AAE006B3BDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "SecureStore::SecureStoreTests";
+			remoteInfo = SecureStoreTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8233644724153AE2006B3BDC /* Keychain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
+		8233644824153AE2006B3BDC /* Data+Bits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+Bits.swift"; sourceTree = "<group>"; };
+		8233645224153B65006B3BDC /* Accessibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accessibility.swift; sourceTree = "<group>"; };
+		8233645424153C77006B3BDC /* KeyType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyType.swift; sourceTree = "<group>"; };
+		8233645624153C9A006B3BDC /* SecureStoreError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureStoreError.swift; sourceTree = "<group>"; };
+		8233645824153D49006B3BDC /* Keychain+RSA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Keychain+RSA.swift"; sourceTree = "<group>"; };
+		8233645D2415425D006B3BDC /* Keychain+Password.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Keychain+Password.swift"; sourceTree = "<group>"; };
+		8233645F241542BD006B3BDC /* Keychain+Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Keychain+Data.swift"; sourceTree = "<group>"; };
+		OBJ_13 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
+		OBJ_17 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_9 /* SecureStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureStore.swift; sourceTree = "<group>"; };
+		"SecureStore::SecureStore::Product" /* SecureStore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SecureStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"SecureStore::SecureStoreTests::Product" /* SecureStoreTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = SecureStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		OBJ_24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_44 /* SecureStore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8233645A24153F01006B3BDC /* Keychain */ = {
+			isa = PBXGroup;
+			children = (
+				8233644724153AE2006B3BDC /* Keychain.swift */,
+				8233645F241542BD006B3BDC /* Keychain+Data.swift */,
+				8233645D2415425D006B3BDC /* Keychain+Password.swift */,
+				8233645824153D49006B3BDC /* Keychain+RSA.swift */,
+			);
+			path = Keychain;
+			sourceTree = "<group>";
+		};
+		8233646A24155B6F006B3BDC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8233644824153AE2006B3BDC /* Data+Bits.swift */,
+			);
+			name = Extensions;
+			path = Encryption/Extensions;
+			sourceTree = "<group>";
+		};
+		OBJ_10 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_11 /* SecureStoreTests */,
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_11 /* SecureStoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_13 /* XCTestManifests.swift */,
+			);
+			name = SecureStoreTests;
+			path = Tests/SecureStoreTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"SecureStore::SecureStoreTests::Product" /* SecureStoreTests.xctest */,
+				"SecureStore::SecureStore::Product" /* SecureStore.framework */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_5 /*  */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_10 /* Tests */,
+				OBJ_14 /* Products */,
+				OBJ_17 /* README.md */,
+			);
+			name = "";
+			sourceTree = "<group>";
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* SecureStore */,
+			);
+			name = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_8 /* SecureStore */ = {
+			isa = PBXGroup;
+			children = (
+				8233645A24153F01006B3BDC /* Keychain */,
+				8233646A24155B6F006B3BDC /* Extensions */,
+				OBJ_9 /* SecureStore.swift */,
+				8233645624153C9A006B3BDC /* SecureStoreError.swift */,
+				8233645224153B65006B3BDC /* Accessibility.swift */,
+				8233645424153C77006B3BDC /* KeyType.swift */,
+			);
+			name = SecureStore;
+			path = Sources/SecureStore;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		"SecureStore::SecureStore" /* SecureStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_19 /* Build configuration list for PBXNativeTarget "SecureStore" */;
+			buildPhases = (
+				OBJ_22 /* Sources */,
+				OBJ_24 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SecureStore;
+			productName = SecureStore;
+			productReference = "SecureStore::SecureStore::Product" /* SecureStore.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"SecureStore::SecureStoreTests" /* SecureStoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_37 /* Build configuration list for PBXNativeTarget "SecureStoreTests" */;
+			buildPhases = (
+				OBJ_40 /* Sources */,
+				OBJ_43 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_45 /* PBXTargetDependency */,
+			);
+			name = SecureStoreTests;
+			productName = SecureStoreTests;
+			productReference = "SecureStore::SecureStoreTests::Product" /* SecureStoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		"SecureStore::SwiftPMPackageDescription" /* SecureStorePackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_26 /* Build configuration list for PBXNativeTarget "SecureStorePackageDescription" */;
+			buildPhases = (
+				OBJ_29 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SecureStorePackageDescription;
+			productName = SecureStorePackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 9999;
+				LastUpgradeCheck = 9999;
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "SecureStore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = OBJ_5 /*  */;
+			productRefGroup = OBJ_14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"SecureStore::SecureStore" /* SecureStore */,
+				"SecureStore::SwiftPMPackageDescription" /* SecureStorePackageDescription */,
+				"SecureStore::SecureStorePackageTests::ProductTarget" /* SecureStorePackageTests */,
+				"SecureStore::SecureStoreTests" /* SecureStoreTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				8233645324153B65006B3BDC /* Accessibility.swift in Sources */,
+				8233645524153C77006B3BDC /* KeyType.swift in Sources */,
+				8233644E24153AE2006B3BDC /* Keychain.swift in Sources */,
+				OBJ_23 /* SecureStore.swift in Sources */,
+				8233645724153C9A006B3BDC /* SecureStoreError.swift in Sources */,
+				8233645E2415425D006B3BDC /* Keychain+Password.swift in Sources */,
+				8233645924153D49006B3BDC /* Keychain+RSA.swift in Sources */,
+				8233644F24153AE2006B3BDC /* Data+Bits.swift in Sources */,
+				82336460241542BD006B3BDC /* Keychain+Data.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_30 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_42 /* XCTestManifests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		OBJ_35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "SecureStore::SecureStoreTests" /* SecureStoreTests */;
+			targetProxy = 8233644224153AAE006B3BDC /* PBXContainerItemProxy */;
+		};
+		OBJ_45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "SecureStore::SecureStore" /* SecureStore */;
+			targetProxy = 8233644124153AAD006B3BDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		OBJ_20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SecureStore.xcodeproj/SecureStore_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = SecureStore;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = SecureStore;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SecureStore.xcodeproj/SecureStore_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = SecureStore;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = SecureStore;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5.1";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		OBJ_28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5.1";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+					"DEBUG=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		OBJ_34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		OBJ_38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SecureStore.xcodeproj/SecureStoreTests_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = SecureStoreTests;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SecureStore.xcodeproj/SecureStoreTests_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = SecureStoreTests;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		OBJ_19 /* Build configuration list for PBXNativeTarget "SecureStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_20 /* Debug */,
+				OBJ_21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_2 /* Build configuration list for PBXProject "SecureStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_26 /* Build configuration list for PBXNativeTarget "SecureStorePackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_27 /* Debug */,
+				OBJ_28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_32 /* Build configuration list for PBXAggregateTarget "SecureStorePackageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_33 /* Debug */,
+				OBJ_34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_37 /* Build configuration list for PBXNativeTarget "SecureStoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_38 /* Debug */,
+				OBJ_39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = OBJ_1 /* Project object */;
+}
