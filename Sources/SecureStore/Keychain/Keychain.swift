@@ -16,13 +16,14 @@ public final class Keychain {
     /// - Returns: On success return an array of cryptographically secure random bytes
     public static func generateSecureRandomKeyWithSize(_ size: Int) -> Result<Data, SecureStoreError> {
         var key = Data(count: size)
-        let status = key.withUnsafeMutableBytes({ (keyBytes: UnsafeMutablePointer<UInt8>) -> Int32 in
-            SecRandomCopyBytes(kSecRandomDefault, size, keyBytes)
-        })
-        if status != errSecSuccess {
-            return .failure(SecureStoreError(rawValue: status) ?? .unknown)
+        let result = key.withUnsafeMutableBytes { keyBytes -> Result<Void, SecureStoreError> in
+            guard let baseAddress = keyBytes.baseAddress else { return .failure(.unknown) }
+            guard SecRandomCopyBytes(kSecRandomDefault, size, baseAddress) == errSecSuccess else {
+                return .failure(.unknown)
+            }
+            return .success(())
         }
-        return .success(key)
+        return result.map { key }
     }
 }
 

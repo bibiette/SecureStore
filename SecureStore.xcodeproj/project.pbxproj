@@ -29,6 +29,7 @@
 		8233645924153D49006B3BDC /* Keychain+RSA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8233645824153D49006B3BDC /* Keychain+RSA.swift */; };
 		8233645E2415425D006B3BDC /* Keychain+Password.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8233645D2415425D006B3BDC /* Keychain+Password.swift */; };
 		82336460241542BD006B3BDC /* Keychain+Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8233645F241542BD006B3BDC /* Keychain+Data.swift */; };
+		823A0943242BB72300FD72E5 /* RandomKeyGenerationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823A0942242BB72300FD72E5 /* RandomKeyGenerationTests.swift */; };
 		OBJ_23 /* SecureStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* SecureStore.swift */; };
 		OBJ_30 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
 		OBJ_42 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* XCTestManifests.swift */; };
@@ -61,11 +62,12 @@
 		8233645824153D49006B3BDC /* Keychain+RSA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Keychain+RSA.swift"; sourceTree = "<group>"; };
 		8233645D2415425D006B3BDC /* Keychain+Password.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Keychain+Password.swift"; sourceTree = "<group>"; };
 		8233645F241542BD006B3BDC /* Keychain+Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Keychain+Data.swift"; sourceTree = "<group>"; };
+		823A0942242BB72300FD72E5 /* RandomKeyGenerationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomKeyGenerationTests.swift; sourceTree = "<group>"; };
 		OBJ_13 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
 		OBJ_17 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		OBJ_9 /* SecureStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureStore.swift; sourceTree = "<group>"; };
-		"SecureStore::SecureStore::Product" /* SecureStore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SecureStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"SecureStore::SecureStore::Product" /* SecureStore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SecureStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"SecureStore::SecureStoreTests::Product" /* SecureStoreTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = SecureStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -120,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				OBJ_13 /* XCTestManifests.swift */,
+				823A0942242BB72300FD72E5 /* RandomKeyGenerationTests.swift */,
 			);
 			name = SecureStoreTests;
 			path = Tests/SecureStoreTests;
@@ -134,7 +137,7 @@
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -143,7 +146,6 @@
 				OBJ_14 /* Products */,
 				OBJ_17 /* README.md */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_7 /* Sources */ = {
@@ -234,7 +236,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_14 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -276,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
+				823A0943242BB72300FD72E5 /* RandomKeyGenerationTests.swift in Sources */,
 				OBJ_42 /* XCTestManifests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +302,7 @@
 		OBJ_20 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -327,6 +331,7 @@
 		OBJ_21 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
